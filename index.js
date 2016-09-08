@@ -29,6 +29,7 @@ var unescape = module.exports = function (str) {
 
 
 var chars = unescape.chars = {
+  '&#039;': '\'',
   '&#39;': '\'',
   '&amp;': '&',
   '&gt;': '>',
